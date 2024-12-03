@@ -17,19 +17,19 @@ class UserSeeder extends Seeder
      
     $admins = [
         [
-            'name' => 'Admin One',
+            'name' => 'HumanResources',
             'email' => 'HumanResources@example.com',
             'password' => Hash::make('password123'), // Replace with secure passwords
             'role' => 'admin',
         ],
         [
-            'name' => 'Admin Two',
+            'name' => 'Guidance',
             'email' => 'Guidance@example.com',
             'password' => Hash::make('password123'),
             'role' => 'admin',
         ],
         [
-            'name' => 'Admin Three',
+            'name' => 'ComputerDepartment',
             'email' => 'ComputerDepartment@example.com',
             'password' => Hash::make('password123'),
             'role' => 'admin',
