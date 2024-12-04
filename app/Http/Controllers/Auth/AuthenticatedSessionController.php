@@ -20,6 +20,7 @@ class AuthenticatedSessionController extends Controller
     public function create(): View
     {
         return view('auth.login');
+        return view('auth.login');
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
